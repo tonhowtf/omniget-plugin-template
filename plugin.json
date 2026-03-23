@@ -1,0 +1,28 @@
+{
+  "id": "my-plugin",
+  "name": "My Plugin",
+  "version": "0.1.0",
+  "min_omniget_version": "0.5.0",
+  "description": "Short description of what this plugin does.",
+  "author": "your-github-username",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/you/omniget-plugin-my-plugin",
+  "nav": [
+    {
+      "route": "/plugins/my-plugin",
+      "label": { "en": "My Plugin", "pt": "Meu Plugin" },
+      "icon_svg": "M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5",
+      "group": "secondary",
+      "order": 40
+    }
+  ],
+  "events": {
+    "progress": [],
+    "complete": []
+  },
+  "capabilities": [
+    "core:events",
+    "core:toast",
+    "core:settings"
+  ]
+}
